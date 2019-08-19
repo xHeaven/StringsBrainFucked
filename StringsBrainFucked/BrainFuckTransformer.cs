@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace StringsBrainFucked {
@@ -63,7 +63,7 @@ namespace StringsBrainFucked {
             }
 
             //Try to optimise as much as possible
-            for (var r = 0; r < 10; r++) {
+            for (var r = 0; r < 2; r++) {
                 int c, a, d, b, e;
                 for (c = 0; c < 256; c++) {
                     for (a = 1; a < 40; a++) {
